@@ -138,6 +138,6 @@ shinyApp(ui, server)
 
 install.packages('UScensus2010')
 devtools::install_version('UScensus2010', version = '0.20.0')
-
-
+counties <- readRDS("data/counties.rds")
+head(counties)
 
