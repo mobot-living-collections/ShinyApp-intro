@@ -136,8 +136,8 @@ server <- function(input, output) {
 
 shinyApp(ui, server)
 
-
-
+install.packages('UScensus2010')
+devtools::install_version('UScensus2010', version = '0.20.0')
 
 
 
